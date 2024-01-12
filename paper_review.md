@@ -1,0 +1,1 @@
+# Title: Degradation Curve Prediction of Lithum-ion Batteries Based on Knee Point Detection Algorithm and CNN
