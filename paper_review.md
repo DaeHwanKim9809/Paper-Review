@@ -1,1 +1,3 @@
-# Title: Degradation Curve Prediction of Lithum-ion Batteries Based on Knee Point Detection Algorithm and CNN
+## Title: Capacity-Fading Behavior Analysis for Early Detection of Unhealthy Li-ion Batteries<br>
+
+# Abstract:
