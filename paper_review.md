@@ -18,7 +18,7 @@ LIB(Lithum-ion Battery)에 대한 신뢰성 테스트는 휴대용 전자 제품
 이러한 문제를 해결하기 위헤 본 논문에서는 신뢰성 테스트 중 리튬 이온 배터리의 저하를 조기에 발견할 수 있는 용량 감소 행동(Capacity-fading behavior analysis)을 분석했다.
 
 ## Methodology
-* Local Outlier Factor(지역 이상치 요인)
+* Local Outlier Factor(지역 이상치 요인)<br>
 본 논문에서 제안하는 접근 방식은 밀도 시반 이상 감지 방법을 기반으로 객체의 이상 점수(anormaly score)는 주변 물체의 평균 밀도와 그 자체의 지역 밀도의 비율으로 측정된다.
 밀도 기반 이상 감지 방법은 아래와 같은 이유로 리튬이온 배터리의 용량 감소 동작의 이상을 검사하기 위해 통계 및 거리 기반 방법보다 선호된다. 
 1. 리튬 이온 배터리의 용량 감소 동작 분포에 대한 이론적 이해의 부족.
@@ -28,6 +28,7 @@ LIB(Lithum-ion Battery)에 대한 신뢰성 테스트는 휴대용 전자 제품
 
 앞서 언급되었듯이, 리튬 이온 배터리의 용량 감소 동작은 개별 배터리에 따라 비선형적이고 다른 양상을 보인다. 따라서 리튬 이온 배터리의 용량 감소 행동은 두 가지 요인으로 특성화 할 수 있다.
 
-$$Retention Rate = RR(t) = \frac{C(t)}{C(0)}, C(t): t 사이클에서의 배터리 용량$$<\br>
+$$Retention Rate = RR(t) = \frac{C(t)}{C(0)},  C(t): t 사이클에서의 배터리 용량$$<br>
+
 $$Fade Rate = FR(t) = \frac{RR(t)- RR(t-1)}{RR(t-1)}$$
 
