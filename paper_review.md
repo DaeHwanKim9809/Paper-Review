@@ -28,6 +28,6 @@ LIB(Lithum-ion Battery)에 대한 신뢰성 테스트는 휴대용 전자 제품
 
 앞서 언급되었듯이, 리튬 이온 배터리의 용량 감소 동작은 개별 배터리에 따라 비선형적이고 다른 양상을 보인다. 따라서 리튬 이온 배터리의 용량 감소 행동은 두 가지 요인으로 특성화 할 수 있다.
 
-$$Retention Rate = RR(t) = C(t)/C(0), C(t): t 사이클에서의 배터리 용량$$
-$$Fade Rate = FR(t) = {RR(t)- RR(t-1)}/RR(t-1)$$
+$$Retention Rate = RR(t) = \frac{C(t)}{C(0)}, C(t): t 사이클에서의 배터리 용량$$<\br>
+$$Fade Rate = FR(t) = \frac{RR(t)- RR(t-1)}{RR(t-1)}$$
 
