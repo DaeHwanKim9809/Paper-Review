@@ -93,4 +93,4 @@ LOF, KDE, HMM이 통합된 방법론은 기존의 곡선 피팅 접근 방식을
 마지막으로는, 배터리의 보존율 및 감쇄율의 변화량을 추적하여 리튬이온 배터리의 저하 데이터의 윈도우 별 변화량이 가속되는 시점 또는 가장 큰 시점을 이용하여 배터리의 초기 n 사이클 내에서 고장을 추적하는데 응용할 수 있을 것으로 예상된다.
 
 ### 참조 문헌
-[1][Lee, C., Jo, S., Kwon, D., & Pecht, M. G. (2020). Capacity-fading behavior analysis for early detection of unhealthy Li-ion batteries. IEEE Transactions on Industrial Electronics, 68(3), 2659-2666.](https://ieeexplore.ieee.org/abstract/document/8998548)
+[1] [Lee, C., Jo, S., Kwon, D., & Pecht, M. G. (2020). Capacity-fading behavior analysis for early detection of unhealthy Li-ion batteries. IEEE Transactions on Industrial Electronics, 68(3), 2659-2666.](https://ieeexplore.ieee.org/abstract/document/8998548)
