@@ -1,4 +1,4 @@
-![Figure. 1](./img/paper_01_title)
+![Figure. 1](./img/paper_01_title.png)
 # Title: Capacity-Fading Behavior Analysis for Early Detection of Unhealthy Li-ion Batteries<br>
 
 ## Abstract
