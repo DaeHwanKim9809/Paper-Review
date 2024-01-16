@@ -1,4 +1,4 @@
-![Figure. 1](./img/01_paper_title.png)
+![Figure. 1](./img/01/01_paper_title.png)
 # Title: Capacity-Fading Behavior Analysis for Early Detection of Unhealthy Li-ion Batteries<br>
 
 ## Abstract
@@ -60,7 +60,7 @@ HMM은 기계학습 기술으로 두 배의 확률 과정을 기반으로 하며
 초기 데이터 세트는 8가지의 건강한 데이터 세트와 4가지의 건강하지 않은 데이터 세트로 구성되어 있다. 배터리 용량은 최대 500 사이클까지 측정되었으며, 이는 가속된 스트레스 조건에서 약 3개월, 정상적인 사용 조건에서 약 2년에 해당된다. SOH가 500 사이클 전에 초기 값의 80% 이하로 떨어지면 배터리는 고장(U)으로 간주되며, 그렇지 않으면 정상(H)으로 간주된다.
 
 <p align="center">
-  <img src="./img/01_soh_figure.png" alt="Figure. 2">
+  <img src="./img/01/01_soh_figure.png" alt="Figure. 2">
 </p>
 
 
@@ -79,21 +79,21 @@ h = \left( \frac{4\hat{\sigma}^5}{3n} \right)^{\frac{1}{5}} \approx 1.06\hat{\si
 테스트 배터리의 500 사이클 후의 상태는 용량 감소 데이터의 첫 100 사이클과 150 사이클을 사용하여 추정되었고, 구체적으로는 테스트 배터리의 정상의 수가 고장의 수보다 많거나 같으면, 테스트 배터리의 상태는 정상상태 그렇지 않으면 고장으로 분류된다. 아래 [표.1]은 개발된 접근 방식의 결과의 일부를 제시한다.
 
 <p align="center">
-  <img src="./img/01_test_result.png" alt="Table. 1">
+  <img src="./img/01/01_test_result.png" alt="Table. 1">
 </p>
 
 고장 및 정상 상태의 리튬이온 배터리의 상태 탐지가 이진 분류 문제라는 것을 고려하여, [표.2, 표.3]에 요약된 몇 가지 성능 평가 지표를 사용하여 세 사지 접근 방식(k=10, 파티클 필터, 단일 클래스 SVM(Support Vector Machine))의 성능을 비교하였다.
 
 <p align="center">
-  <img src="./img/01_table_02.png" alt="Table. 2: k = 10">
+  <img src="./img/01/01_table_02.png" alt="Table. 2: k = 10">
 </p>
 
 <p align="center">
-  <img src="./img/01_table_03.png" alt="Table. 3: Particle filter">
+  <img src="./img/01/01_table_03.png" alt="Table. 3: Particle filter">
 </p>
 
 <p align="center">
-  <img src="./img/01_table_04.png" alt="Table. 4: One Class SVM">
+  <img src="./img/01/01_table_04.png" alt="Table. 4: One Class SVM">
 </p>
 
 비교 결과 개발된 접근 방식이 다른 두 가지 접근 방식을 능가했음을 확인할 수 있고, 특이점은 개발된 접근 방식은 오탐을 줄임으로써 고장상태의 배터리를 식별하는데 보수적이다.
