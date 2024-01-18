@@ -25,7 +25,7 @@ MPF는 고장 관련 전자 신호 또는 고장 전조 증상(;전구체, precu
 > Miner's rule<br>
 피로 손상 누적에 대한 경험적인 이론으로 다양한 응력 수준에서 반복적인 하중을 받는 재료의 피로 수명을 추정하는데 사용됨. <br>
 $D = \sum(n_i/N_i)$<br>
-$(\space D: 누적 손상,\space n_i: 실제 응력 수준에서 발생한 사이클 수, \space N_i: 해당 응력 수준에서 재료가 실패하기 전 까지 견딜 수 있는 사이클 수)$
+$(\space D: 누적 손상,\space n_i: \space 실제 \space 응력 \space 수준에서 \space 발생한 \space 사이클 \space 수, \space N_i: \space 해당 \space 응력 \space 수준에서 \space 재료가 \space 실패하기 \space 전 \space 까지 \space 견딜 \space 수 \space 있는 \space 사이클 \space 수)$
 
 ## Selection of CDM
 Minor의 법칙이 개괄된 이후 다양한 논문에서 검토되었지만, 해당 법칙의 한계 및 문제는 여전히 존재하기에 이를 해결하기 위해 다양한 CDM이 연구되고 개발되었다.
@@ -58,7 +58,8 @@ $$m_k = n_k + m_{k-1\text{@}k},\space when \space k\ne 1.$$
 
 $$m_{k-1\text{@}k}=\frac {N_{k}}{N_{k-1}}m_{k-1}$$
 
-기존 마이너의 법칙과 소개된 $m_k$로 설명하는 식은 로그 스케일에서 선형 관계를 갖고 있다고 할 수 있다:
+기존 마이너의 법칙과 소개된 $m_k$로 설명하는 식은 로그 스케일에서 선형 관계를 갖고 있다고 할 수 있다.
+
 $$\frac {\log m_{k-1\text{@}k} {-} \log m_{k-1}}{\log \sigma _{k}-\log \sigma _{k-1}}=\frac {\log N_{k}-\log N_{k-1}}{\log \sigma _{k}-\log \sigma _{k-1}}$$
 
 <p align="center">
