@@ -18,3 +18,11 @@
 [5] [Severson, K. A., Attia, P. M., Jin, N., Perkins, N., Jiang, B., Yang, Z., ... & Braatz, R. D. (2019). Data-driven prediction of battery cycle life before capacity degradation. Nature Energy, 4(5), 383-391.]
 
 [6] [Zhang, Y., Peng, Z., Guan, Y., & Wu, L. (2021). Prognostics of battery cycle life in the early-cycle stage based on hybrid model. Energy, 221, 119901.]
+
+[7] [Hendricks, C., Williard, N., Mathew, S., & Pecht, M. (2015). A failure modes, mechanisms, and effects analysis (FMMEA) of lithium-ion batteries. Journal of Power Sources, 297, 113-120.]
+
+[8] [A novel health indicator for on-line lithium-ion batteries remaining useful life prediction]
+
+[9] [Prognostics of battery cycle life in the early-cycle stage based on hybrid model]
+
+[10] [Prognostics and health management of electronics]

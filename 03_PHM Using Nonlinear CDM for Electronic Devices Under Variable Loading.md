@@ -58,9 +58,9 @@ $$m_k = n_k + m_{k-1\text{@}k},\space when \space k\ne 1.$$
 
 $$m_{k-1\text{@}k}=\frac {N_{k}}{N_{k-1}}m_{k-1}$$
 
-기존 마이너의 법칙과 소개된 $m_k$로 설명하는 식은 로그 스케일에서 선형 관계를 갖고 있다고 할 수 있다.
+기존 마이너의 법칙과 소개된 $m_k$로 설명하는 식은 로그 스케일에서 선형 관계를 갖고 있다고 할 수 있다.<br>
 
-$$\frac{\log m_{k-1\text{@}k}{-}\log m_{k-1}}{\log\sigma _{k}-\log\sigma _{k-1}} = \frac{\log N_{k}-\log N_{k-1}}{\log\sigma _{k}-\log\sigma _{k-1}}$$
+$\frac{\log m_{k-1\text{@}k}{-}\log m_{k-1}}{\log\sigma _{k}-\log\sigma _{k-1}} = \frac{\log N_{k}-\log N_{k-1}}{\log\sigma _{k}-\log\sigma _{k-1}}$
 
 <p align="center">
   <img src="./img/03/03_figure3.png" alt="(a) 마이너의 법칙, (b) HR-Su 모델, (c) HR_Se 모델, (d) TS 모델">
