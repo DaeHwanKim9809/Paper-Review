@@ -26,3 +26,7 @@
 [9] [Prognostics of battery cycle life in the early-cycle stage based on hybrid model]
 
 [10] [Prognostics and health management of electronics]
+
+[11] [Saxena, S., Roman, D., Robu, V., Flynn, D., & Pecht, M. (2021). Battery stress factor ranking for accelerated degradation test planning using machine learning. energies, 14(3), 723.]
+
+[12] [Choi, S. S., & Lim, H. S. (2002). Factors that affect cycle-life and possible degradation mechanisms of a Li-ion cell based on LiCoO2. Journal of Power Sources, 111(1), 130-136.]
