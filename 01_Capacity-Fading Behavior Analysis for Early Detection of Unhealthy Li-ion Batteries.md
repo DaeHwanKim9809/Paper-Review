@@ -70,7 +70,7 @@ HMM은 기계학습 기술으로 두 배의 확률 과정을 기반으로 하며
 모델의 파라미터는 데이터 세트의 특성을 고려하여 조심스럽게 접근해야하며, 첫 째로 LOF와 관련하여 k 값은 Breunig et al.에 따라 통계적 변동을 제거하기 위해 10으로 설정되었다.
 두 번째로, KDE에 관하여 Silverman을 따라 가우시안 커널 함수를 사용하였고 커널의 평활화 요소들 아래와 같이 설정하였다.
 
-h = \left( \frac{4\hat{\sigma}^5}{3n} \right)^{\frac{1}{5}} \approx 1.06\hat{\sigma}n^{-\frac{1}{5}}
+$$h = \left( \frac{4\hat{\sigma}^5}{3n} \right)^{\frac{1}{5}} \approx 1.06\hat{\sigma}n^{-\frac{1}{5}}$$
 
 
 
